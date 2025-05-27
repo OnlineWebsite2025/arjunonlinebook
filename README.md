@@ -13,7 +13,16 @@
       font-family: Arial, sans-serif;
       text-align: center;
     }
+    header {
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
+    .logo {
+      width: 250px;
+      max-width: 90%;
     .container {
       padding: 40px 20px;
     }
@@ -42,7 +51,7 @@
 
     .telegram-btn {
       background-color: #0088cc;
-      color: dark brown;
+      color: White;
     }
 
     .whatsapp-btn {
@@ -59,7 +68,7 @@
 </head>
 <body>
   <div class="container">
-    <h1>KAHI BHI KABHI BHI!!KHELO BINDAS </h1>
+    <h1>KAHI BHI KABHI BHI!! KHELO BINDAS </h1>
 
     <div class="safety">
       100% SAFE & SECURE BOOK!!
