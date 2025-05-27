@@ -2,111 +2,78 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Arjun Online Book</title>
   <style>
     body {
       margin: 0;
-      padding: 0;
       font-family: Arial, sans-serif;
-      background: url('background.jpg') no-repeat center center fixed;
-      background-size: cover;
-      color: white;
+      background: #111;
+      color: #fff;
       text-align: center;
     }
+
     .logo {
-      margin-top: 20px;
-      font-size: 40px;
-      font-weight: bold;
-      color: #ffe600;
+      width: 200px;
+      margin: 20px auto;
     }
-    .tagline {
-      font-size: 28px;
-      font-weight: bold;
-      color: #fff600;
-      margin: 10px 0;
-    }
-    .subtagline {
-      font-size: 20px;
-      font-weight: bold;
-    }
-    .icons {
-      margin: 30px 0;
+
+    .main-section {
       display: flex;
-      justify-content: center;
-      gap: 40px;
       flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
     }
-    .icons div {
-      text-align: center;
-      font-weight: bold;
+
+    .main-section img {
+      width: 300px;
+      border-radius: 12px;
     }
-    .service {
-      font-size: 28px;
-      font-weight: bold;
-      color: yellow;
-    }
-    .telegram {
-      margin: 20px 0;
-    }
-    .telegram button {
-      background-color: #0088cc;
+
+    .telegram-btn {
+      display: inline-block;
+      background: #0088cc;
       color: white;
-      font-size: 24px;
-      padding: 10px 30px;
-      border: none;
-      border-radius: 10px;
-      cursor: pointer;
-    }
-    .players {
-      margin: 30px 0;
-    }
-    .players img {
-      width: 90%;
-      max-width: 800px;
-    }
-    .secure {
-      font-size: 24px;
       font-weight: bold;
-      color: yellow;
-      background: black;
-      padding: 10px;
+      padding: 15px 30px;
+      margin-top: 40px;
+      text-decoration: none;
+      border-radius: 10px;
+      font-size: 1.2em;
     }
-    .disclaimer {
-      font-size: 12px;
-      color: yellow;
-      background: black;
-      padding: 10px;
+
+    .telegram-btn:hover {
+      background: #006fa1;
+    }
+
+    .footer {
+      margin-top: 50px;
+      font-size: 14px;
+      color: #ccc;
+      padding: 10px 20px;
     }
   </style>
 </head>
 <body>
 
-  <div class="logo">Arjun Online Book</div>
-  <div class="tagline">KHELO CRICKET</div>
-  <div class="subtagline">KAHI BHI KABHI BHI!!</div>
+  <!-- Logo -->
+  <img src="logo.png" alt="Arjun Online Book" class="logo">
 
-  <div class="icons">
-    <div><img src="cricket-icon.png" alt="Cricket" width="60"><br>CRICKET</div>
-    <div><img src="tennis-icon.png" alt="Tennis" width="60"><br>TENNIS</div>
-    <div><img src="soccer-icon.png" alt="Soccer" width="60"><br>SOCCER</div>
-    <div><img src="dice-icon.png" alt="Games" width="60"><br>GAMES</div>
+  <!-- Main Images Section -->
+  <div class="main-section">
+    <img src="khiladi.png" alt="Cricket Players">
+    <img src="pngegg.png" alt="Casino Games">
+    <img src="casino-vip.png" alt="VIP Casino">
+    <img src="Cricket-PNG-Photos.png" alt="Cricket Trophy">
   </div>
 
-  <div class="service">24x7 Service</div>
+  <!-- Telegram Join Button -->
+  <a href="https://t.me/arjunexchane" class="telegram-btn" target="_blank">Join Us on Telegram</a>
 
-  <div class="telegram">
-    <p style="font-size: 24px; font-weight: bold;">JOIN NOW</p>
-    <button>Telegram</button>
-  </div>
-
-  <div class="players">
-    <img src="players-banner.png" alt="Players">
-  </div>
-
-  <div class="secure">100% SAFE & SECURE BOOK!!</div>
-
-  <div class="disclaimer">
-    Disclaimer:- This Website is only for 18+ users. Be aware of fraudsters, We only deal via WhatsApp. No Real Money Involvement, 100% Safe and Secure.
+  <!-- Footer Disclaimer -->
+  <div class="footer">
+    Disclaimer: This website is for 18+ users only. Be aware of fraudsters. We only deal via WhatsApp. No real money involvement. 100% safe and secure.
   </div>
 
 </body>
