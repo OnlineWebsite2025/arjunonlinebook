@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Arjun Online Book</title>
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
       background: #111;
-      color: #fff;
+      color: white;
+      font-family: Arial, sans-serif;
       text-align: center;
     }
 
     .logo {
-      width: 200px;
-      margin: 20px auto;
+      width: 250px;
+      margin-top: 20px;
     }
 
     .main-section {
@@ -28,7 +28,9 @@
 
     .main-section img {
       width: 300px;
-      border-radius: 12px;
+      height: auto;
+      border-radius: 10px;
+      background: #222;
     }
 
     .telegram-btn {
@@ -37,41 +39,35 @@
       color: white;
       font-weight: bold;
       padding: 15px 30px;
-      margin-top: 40px;
-      text-decoration: none;
+      margin-top: 30px;
       border-radius: 10px;
-      font-size: 1.2em;
-    }
-
-    .telegram-btn:hover {
-      background: #006fa1;
+      text-decoration: none;
+      font-size: 18px;
     }
 
     .footer {
-      margin-top: 50px;
+      margin-top: 40px;
       font-size: 14px;
       color: #ccc;
-      padding: 10px 20px;
+      padding: 0 20px 30px;
     }
   </style>
 </head>
 <body>
 
-  <!-- Logo -->
-  <img src="logo.png" alt="Arjun Online Book" class="logo">
+  <img src="logo.png" alt="Arjun Online Book" class="logo"/>
 
-  <!-- Main Images Section -->
   <div class="main-section">
-    <img src="khiladi.png" alt="Cricket Players">
-    <img src="pngegg.png" alt="Casino Games">
-    <img src="casino-vip.png" alt="VIP Casino">
-    <img src="Cricket-PNG-Photos.png" alt="Cricket Trophy">
+    <img src="khiladi.png" alt="Cricket Players"/>
+    <img src="pngegg.png" alt="Casino Games"/>
+    <img src="casino-vip.png" alt="VIP Casino"/>
+    <img src="Cricket-PNG-Photos.png" alt="Cricket Trophy"/>
   </div>
 
-  <!-- Telegram Join Button -->
-  <a href="https://t.me/arjunexchane" class="telegram-btn" target="_blank">Join Us on Telegram</a>
+  <a href="https://t.me/arjunexchane" class="telegram-btn" target="_blank">
+    Join Us on Telegram
+  </a>
 
-  <!-- Footer Disclaimer -->
   <div class="footer">
     Disclaimer: This website is for 18+ users only. Be aware of fraudsters. We only deal via WhatsApp. No real money involvement. 100% safe and secure.
   </div>
