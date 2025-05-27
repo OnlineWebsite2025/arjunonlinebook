@@ -3,74 +3,79 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Arjun Online Book</title>
+  <title>Arjun Book</title>
   <style>
     body {
       margin: 0;
-      background: #111;
-      color: white;
+      padding: 0;
+      background: #0d0d0d;
+      color: #fff;
       font-family: Arial, sans-serif;
       text-align: center;
     }
 
-    .logo {
-      width: 250px;
-      margin-top: 20px;
+    .container {
+      padding: 40px 20px;
     }
 
-    .main-section {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-      margin-top: 30px;
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #ffcc00;
     }
 
-    .main-section img {
-      width: 300px;
-      height: auto;
-      border-radius: 10px;
-      background: #222;
+    .safety {
+      font-size: 1.5rem;
+      color: #00ffcc;
+      margin: 30px 0;
+    }
+
+    .telegram-btn, .whatsapp-btn {
+      display: inline-block;
+      margin: 15px 10px;
+      padding: 15px 25px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
     }
 
     .telegram-btn {
-      display: inline-block;
-      background: #0088cc;
+      background-color: #0088cc;
       color: white;
-      font-weight: bold;
-      padding: 15px 30px;
-      margin-top: 30px;
-      border-radius: 10px;
-      text-decoration: none;
-      font-size: 18px;
+    }
+
+    .whatsapp-btn {
+      background-color: #25D366;
+      color: white;
     }
 
     .footer {
-      margin-top: 40px;
+      margin-top: 50px;
       font-size: 14px;
       color: #ccc;
-      padding: 0 20px 30px;
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <h1>KAHI BHI KABHI BHI!!</h1>
 
-  <img src="logo.png" alt="Arjun Online Book" class="logo"/>
+    <div class="safety">
+      100% SAFE & SECURE BOOK!!
+    </div>
 
-  <div class="main-section">
-    <img src="khiladi.png" alt="Cricket Players"/>
-    <img src="pngegg.png" alt="Casino Games"/>
-    <img src="casino-vip.png" alt="VIP Casino"/>
-    <img src="Cricket-PNG-Photos.png" alt="Cricket Trophy"/>
+    <a href="https://t.me/arjunexchane" target="_blank" class="telegram-btn">
+      Join on Telegram
+    </a>
+
+    <a href="https://wa.me/917359957945" target="_blank" class="whatsapp-btn">
+      Chat on WhatsApp
+    </a>
+
+    <div class="footer">
+      Disclaimer: This site is for 18+ users only. No real money involved. Be aware of fraudsters.
+    </div>
   </div>
-
-  <a href="https://t.me/arjunexchane" class="telegram-btn" target="_blank">
-    Join Us on Telegram
-  </a>
-
-  <div class="footer">
-    Disclaimer: This website is for 18+ users only. Be aware of fraudsters. We only deal via WhatsApp. No real money involvement. 100% safe and secure.
-  </div>
-
 </body>
 </html>
