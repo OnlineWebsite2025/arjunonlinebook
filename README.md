@@ -3,30 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Arjun Online Book</title>
+  <title>Arjun Book</title>
   <style>
     body {
       margin: 0;
       padding: 0;
-      background: url('b0f8f1ed-d701-4062-b065-e8696777376e.png') no-repeat center center fixed;
-      background-size: cover;
-      color: white;
+      background: #0d0d0d;
+      color: #fff;
       font-family: Arial, sans-serif;
       text-align: center;
     }
 
     .container {
-      padding: 60px 20px;
-      background: rgba(0, 0, 0, 0.6);
-      max-width: 600px;
-      margin: auto;
-      border-radius: 10px;
+      padding: 40px 20px;
     }
 
     h1 {
       font-size: 2.5rem;
-      color: #ffcc00;
       margin-bottom: 20px;
+      color: #ffcc00;
     }
 
     .safety {
@@ -47,7 +42,7 @@
 
     .telegram-btn {
       background-color: #0088cc;
-      color: white;
+      color: dark brown;
     }
 
     .whatsapp-btn {
@@ -56,15 +51,15 @@
     }
 
     .footer {
-      margin-top: 40px;
+      margin-top: 50px;
       font-size: 14px;
-      color: #ccc;
+      color: #845422;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>KAHI BHI KABHI BHI!!</h1>
+    <h1>KAHI BHI KABHI BHI!!KHELO BINDAS </h1>
 
     <div class="safety">
       100% SAFE & SECURE BOOK!!
@@ -79,7 +74,13 @@
     </a>
 
     <div class="footer">
-      Disclaimer: This site is for 18+ users only. No real money involved. Be aware of fraudsters.
+ <strong>Disclaimer:</strong>
+      <ul>
+        <li>This platform is strictly for users aged 18 and above.</li>
+        <li>No real money transactions take place here.</li>
+        <li>We only deal via official WhatsApp and Telegram channels.</li>
+        <li>Beware of fraudsters and third-party contacts claiming association.</li>
+      </ul>
     </div>
   </div>
 </body>
