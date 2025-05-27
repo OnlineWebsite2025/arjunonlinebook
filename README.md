@@ -3,16 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Arjun Book</title>
+  <title>Arjun Online Book</title>
   <style>
     body {
       margin: 0;
       padding: 0;
-      background: #0d0d0d;
-      color: #fff;
+      background: url('b0f8f1ed-d701-4062-b065-e8696777376e.png') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
       font-family: Arial, sans-serif;
       text-align: center;
     }
+
     header {
       padding: 20px;
       display: flex;
@@ -23,14 +25,20 @@
     .logo {
       width: 250px;
       max-width: 90%;
+    }
+
     .container {
-      padding: 40px 20px;
+      padding: 60px 20px;
+      background: rgba(0, 0, 0, 0.6);
+      max-width: 600px;
+      margin: auto;
+      border-radius: 10px;
     }
 
     h1 {
       font-size: 2.5rem;
-      margin-bottom: 20px;
       color: #ffcc00;
+      margin-bottom: 20px;
     }
 
     .safety {
@@ -51,7 +59,7 @@
 
     .telegram-btn {
       background-color: #0088cc;
-      color: White;
+      color: white;
     }
 
     .whatsapp-btn {
@@ -60,15 +68,26 @@
     }
 
     .footer {
-      margin-top: 50px;
+      margin-top: 40px;
       font-size: 14px;
-      color: #845422;
+      color: #ccc;
+      text-align: left;
+    }
+
+    .footer ul {
+      list-style: disc;
+      margin-left: 20px;
+      padding-left: 0;
     }
   </style>
 </head>
 <body>
+  <header>
+    <img src="logo.png" alt="Arjun Online Book Logo" class="logo">
+  </header>
+
   <div class="container">
-    <h1>KAHI BHI KABHI BHI!! KHELO BINDAS </h1>
+    <h1>KAHI BHI KABHI BHI!!</h1>
 
     <div class="safety">
       100% SAFE & SECURE BOOK!!
@@ -83,7 +102,7 @@
     </a>
 
     <div class="footer">
- <strong>Disclaimer:</strong>
+      <strong>Disclaimer:</strong>
       <ul>
         <li>This platform is strictly for users aged 18 and above.</li>
         <li>No real money transactions take place here.</li>
