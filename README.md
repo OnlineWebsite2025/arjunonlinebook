@@ -25,7 +25,7 @@
     .logo {
       width: 250px;
       max-width: 90%;
-    }
+      filter: drop-shadow(0 0 20px #ffff00);}
 
     .container {
       padding: 60px 20px;
@@ -83,7 +83,7 @@
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Arjun Online Book Logo" class="logo">
+    <img src="logo.png.png" alt="Arjun Online Book Logo" class="logo">
   </header>
 
   <div class="container">
