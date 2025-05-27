@@ -96,16 +96,3 @@
       Disclaimer: This Website is only for 18+ users. Be aware of fraudsters. We only deal via WhatsApp. No Real Money Involvement. 100% Safe and Secure.
     </div>
   </div>
-
-</body>
-</html>
-<a href="https://t.me/arjunexchane" class="telegram-btn" target="_blank">
-  Join Now on Telegram
-</a>
-<div class="disclaimer">
-  Disclaimer: This Website is only for 18+ users. Be aware of fraudsters. We only deal via WhatsApp. No Real Money Involvement. 100% Safe and Secure.
-</div>
-
-<div class="disclaimer">
-  Games Policy: All games are for entertainment purposes only. No betting or gambling with real money is allowed. Users are responsible for following local laws and regulations.
-</div>
