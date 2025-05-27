@@ -3,25 +3,30 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Arjun Book</title>
+  <title>Arjun Online Book</title>
   <style>
     body {
       margin: 0;
       padding: 0;
-      background: #0d0d0d;
-      color: #fff;
+      background: url('b0f8f1ed-d701-4062-b065-e8696777376e.png') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
       font-family: Arial, sans-serif;
       text-align: center;
     }
 
     .container {
-      padding: 40px 20px;
+      padding: 60px 20px;
+      background: rgba(0, 0, 0, 0.6);
+      max-width: 600px;
+      margin: auto;
+      border-radius: 10px;
     }
 
     h1 {
       font-size: 2.5rem;
-      margin-bottom: 20px;
       color: #ffcc00;
+      margin-bottom: 20px;
     }
 
     .safety {
@@ -51,7 +56,7 @@
     }
 
     .footer {
-      margin-top: 50px;
+      margin-top: 40px;
       font-size: 14px;
       color: #ccc;
     }
