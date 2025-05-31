@@ -3,93 +3,81 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mobile Game Landing Page</title>
+  <title>Super Fun Game</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    body, html {
       margin: 0; padding: 0;
-      background: #f9f9f9;
-      color: #333;
-    }
-    header {
-      background: #4a90e2;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #121212;
       color: white;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .container {
       padding: 20px;
       text-align: center;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
-    header h1 {
-      margin: 0;
-      font-size: 1.8em;
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      font-weight: 900;
     }
-    .btn {
-      background: #ff6f61;
-      color: white;
-      padding: 15px 30px;
-      border: none;
-      border-radius: 30px;
-      font-size: 1.1em;
-      margin-top: 20px;
-      cursor: pointer;
-      display: inline-block;
-      text-decoration: none;
+    p {
+      font-size: 1.2em;
+      margin-bottom: 25px;
+      color: #bbb;
     }
-    .features, .reviews {
-      padding: 20px;
-    }
-    .features ul {
-      list-style: none;
-      padding: 0;
-    }
-    .features li {
-      margin: 10px 0;
-      font-size: 1.1em;
-    }
-    .game-preview {
-      text-align: center;
-      padding: 20px;
-    }
-    .game-preview img {
-      max-width: 80%;
+    img {
+      max-width: 90%;
       border-radius: 15px;
+      margin-bottom: 25px;
+      box-shadow: 0 0 15px #ff3c00;
+    }
+    .btn-download {
+      background: #ff3c00;
+      color: white;
+      padding: 18px 40px;
+      font-size: 1.3em;
+      border: none;
+      border-radius: 35px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 5px 15px #ff3c00aa;
+      transition: background 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 30px;
+    }
+    .btn-download:hover {
+      background: #e63600;
     }
     footer {
       background: #222;
-      color: #aaa;
       padding: 15px;
-      text-align: center;
       font-size: 0.9em;
+      color: #888;
+      text-align: center;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Apka Favorite Mobile Game</h1>
-    <a href="#" class="btn">Abhi Download Karein</a>
-  </header>
 
-  <section class="features">
-    <h2>Game Ke Features</h2>
-    <ul>
-      <li>Aasaan aur Mazedaar Controls</li>
-      <li>Multiplayer Mode with Friends</li>
-      <li>Rozana In-Game Rewards</li>
-      <li>Bina Internet Ke Bhi Khelenge</li>
-    </ul>
-  </section>
-
-  <section class="game-preview">
-    <h2>Game Preview</h2>
-    <img src="game-screenshot1.jpg" alt="Game Screenshot" />
-  </section>
-
-  <section class="reviews">
-    <h2>User Reviews</h2>
-    <p>"Bahut hi mazedaar game hai, main roz khelta hoon!" - Rahul</p>
-    <p>"Graphics aur gameplay donon zabardast!" - Neha</p>
-  </section>
+  <div class="container">
+    <h1>Super Fun Game</h1>
+    <p>Aasaan controls, zabardast graphics, aur doston ke saath mazaa!</p>
+    <img src="https://via.placeholder.com/300x500.png?text=Game+Screenshot" alt="Game Screenshot" />
+    <a href="#" class="btn-download">Abhi Download Karein</a>
+  </div>
 
   <footer>
-    &copy; 2025 ApkaGame. Sabhi adhikar surakshit hain.
+    &copy; 2025 Super Fun Game. Sabhi adhikar surakshit hain.
   </footer>
+
 </body>
 </html>
