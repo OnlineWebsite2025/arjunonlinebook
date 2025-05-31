@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Name - Join Now</title>
+  <title>Arjun Online Book</title>
   <style>
     * {
       margin: 0;
@@ -13,7 +13,7 @@
     }
 
     body {
-      background: url('https://images.unsplash.com/photo-1557683316-973673baf926?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
+      background: url('a7ceb483-2845-4c4c-8efc-ae126bd1c2f4.png') no-repeat center center/cover;
       height: 100vh;
       color: white;
       display: flex;
@@ -56,8 +56,8 @@
       margin-bottom: 30px;
     }
 
-    .whatsapp-button {
-      background-color: #25D366;
+    .telegram-button {
+      background-color: #0088cc;
       color: white;
       padding: 12px 24px;
       border: none;
@@ -69,8 +69,8 @@
       transition: background 0.3s;
     }
 
-    .whatsapp-button:hover {
-      background-color: #1eb64f;
+    .telegram-button:hover {
+      background-color: #006ea8;
     }
 
     .footer {
@@ -88,15 +88,15 @@
 
   <div class="container">
     <img src="https://via.placeholder.com/150" alt="Profile" class="profile-img" />
-    <h1>Your Name</h1>
-    <p>Join my team and start earning today!</p>
-    <a href="https://wa.me/919999999999" class="whatsapp-button" target="_blank">
-      💬 Join on WhatsApp
+    <h1>Arjun Online Book</h1>
+    <p>Join my Telegram channel and start today!</p>
+    <a href="https://t.me/arjunexchane" class="telegram-button" target="_blank">
+      🚀 Join on Telegram
     </a>
   </div>
 
   <div class="footer">
-    © 2025 YourName. All rights reserved.
+    © 2025 Arjun Online Book. All rights reserved.
   </div>
 </body>
 </html>
