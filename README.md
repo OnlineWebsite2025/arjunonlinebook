@@ -1,103 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Arjun Online Book</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mobile Game Landing Page</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Arial', sans-serif;
-    }
-
     body {
-      background: url('background.png') no-repeat center center/cover;
-      height: 100vh;
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #4a90e2;
       color: white;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      padding: 20px;
       text-align: center;
-      position: relative;
     }
-
-    .overlay {
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background-color: rgba(0, 0, 0, 0.6);
-      z-index: 0;
+    header h1 {
+      margin: 0;
+      font-size: 1.8em;
     }
-
-    .container {
-      position: relative;
-      z-index: 1;
-    }
-
-    .profile-img {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      border: 3px solid white;
-      object-fit: cover;
-      margin-bottom: 20px;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-      color: #fff;
-    }
-
-    p {
-      font-size: 1.1rem;
-      margin-bottom: 30px;
-    }
-
-    .telegram-button {
-      background-color: #0088cc;
+    .btn {
+      background: #ff6f61;
       color: white;
-      padding: 12px 24px;
+      padding: 15px 30px;
       border: none;
       border-radius: 30px;
-      font-size: 1.1rem;
+      font-size: 1.1em;
+      margin-top: 20px;
       cursor: pointer;
-      text-decoration: none;
       display: inline-block;
-      transition: background 0.3s;
+      text-decoration: none;
     }
-
-    .telegram-button:hover {
-      background-color: #006ea8;
+    .features, .reviews {
+      padding: 20px;
     }
-
-    .footer {
-      position: absolute;
-      bottom: 10px;
-      width: 100%;
+    .features ul {
+      list-style: none;
+      padding: 0;
+    }
+    .features li {
+      margin: 10px 0;
+      font-size: 1.1em;
+    }
+    .game-preview {
       text-align: center;
-      font-size: 0.9rem;
-      color: #ccc;
+      padding: 20px;
+    }
+    .game-preview img {
+      max-width: 80%;
+      border-radius: 15px;
+    }
+    footer {
+      background: #222;
+      color: #aaa;
+      padding: 15px;
+      text-align: center;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
-  <div class="overlay"></div>
+  <header>
+    <h1>Apka Favorite Mobile Game</h1>
+    <a href="#" class="btn">Abhi Download Karein</a>
+  </header>
 
-  <div class="container">
-    <img src="profile.png" alt="Profile" class="profile-img" />
-    <h1>arjunonlinebook</h1>
-    <p>Join my Telegram channel and start today!</p>
-    <a href="https://t.me/arjunexchane" class="telegram-button" target="_blank">
-      🚀 Join on Telegram
-    </a>
-  </div>
+  <section class="features">
+    <h2>Game Ke Features</h2>
+    <ul>
+      <li>Aasaan aur Mazedaar Controls</li>
+      <li>Multiplayer Mode with Friends</li>
+      <li>Rozana In-Game Rewards</li>
+      <li>Bina Internet Ke Bhi Khelenge</li>
+    </ul>
+  </section>
 
-  <div class="footer">
-    © 2025 Arjun Online Book. All rights reserved.
-  </div>
+  <section class="game-preview">
+    <h2>Game Preview</h2>
+    <img src="game-screenshot1.jpg" alt="Game Screenshot" />
+  </section>
+
+  <section class="reviews">
+    <h2>User Reviews</h2>
+    <p>"Bahut hi mazedaar game hai, main roz khelta hoon!" - Rahul</p>
+    <p>"Graphics aur gameplay donon zabardast!" - Neha</p>
+  </section>
+
+  <footer>
+    &copy; 2025 ApkaGame. Sabhi adhikar surakshit hain.
+  </footer>
 </body>
 </html>
