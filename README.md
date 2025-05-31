@@ -13,7 +13,7 @@
     }
 
     body {
-      background: url('a7ceb483-2845-4c4c-8efc-ae126bd1c2f4.png') no-repeat center center/cover;
+      background: url('background.png') no-repeat center center/cover;
       height: 100vh;
       color: white;
       display: flex;
@@ -49,6 +49,7 @@
     h1 {
       font-size: 2.5rem;
       margin-bottom: 10px;
+      color: #fff;
     }
 
     p {
@@ -87,8 +88,8 @@
   <div class="overlay"></div>
 
   <div class="container">
-    <img src="https://via.placeholder.com/150" alt="Profile" class="profile-img" />
-    <h1>Arjun Online Book</h1>
+    <img src="profile.png" alt="Profile" class="profile-img" />
+    <h1>arjunonlinebook</h1>
     <p>Join my Telegram channel and start today!</p>
     <a href="https://t.me/arjunexchane" class="telegram-button" target="_blank">
       🚀 Join on Telegram
