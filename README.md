@@ -2,81 +2,101 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Arjun Online Book</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name - Join Now</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    * {
       margin: 0;
       padding: 0;
-      background: #f3f3f3;
-      color: #333;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
     }
-    .container {
-      max-width: 500px;
-      margin: 0 auto;
-      padding: 20px;
+
+    body {
+      background: url('https://images.unsplash.com/photo-1557683316-973673baf926?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
+      height: 100vh;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
       text-align: center;
-      background: #fff;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      position: relative;
     }
-    .logo {
-      max-width: 150px;
+
+    .overlay {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      z-index: 0;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 3px solid white;
+      object-fit: cover;
       margin-bottom: 20px;
     }
+
     h1 {
-      color: #d60000;
+      font-size: 2.5rem;
       margin-bottom: 10px;
     }
-    .banner {
-      background: #ffd700;
-      padding: 15px;
-      font-size: 18px;
-      font-weight: bold;
-      margin-bottom: 20px;
-      border-radius: 8px;
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
     }
-    .features {
-      text-align: left;
-      margin-bottom: 20px;
-    }
-    .features li {
-      margin: 10px 0;
-    }
-    .btn {
-      display: inline-block;
-      background: #0088cc;
-      color: #fff;
-      padding: 12px 20px;
-      border-radius: 8px;
+
+    .whatsapp-button {
+      background-color: #25D366;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      cursor: pointer;
       text-decoration: none;
-      font-size: 18px;
+      display: inline-block;
+      transition: background 0.3s;
     }
+
+    .whatsapp-button:hover {
+      background-color: #1eb64f;
+    }
+
     .footer {
-      margin-top: 30px;
-      font-size: 14px;
-      color: #777;
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #ccc;
     }
   </style>
 </head>
 <body>
+  <div class="overlay"></div>
+
   <div class="container">
-    <img src="https://via.placeholder.com/150x150?text=Arjun" alt="Arjun Online Book" class="logo">
-    <h1>Arjun Online Book</h1>
-    <div class="banner">Join & Start Earning Instantly</div>
+    <img src="https://via.placeholder.com/150" alt="Profile" class="profile-img" />
+    <h1>Your Name</h1>
+    <p>Join my team and start earning today!</p>
+    <a href="https://wa.me/919999999999" class="whatsapp-button" target="_blank">
+      💬 Join on WhatsApp
+    </a>
+  </div>
 
-    <ul class="features">
-      <li>✅ Instant Withdrawal</li>
-      <li>✅ 24/7 Support</li>
-      <li>✅ Secure & Trusted Platform</li>
-      <li>✅ Easy Registration</li>
-    </ul>
-
-    <a href="https://t.me/arjunexchane" class="btn" target="_blank">Join Telegram</a>
-
-    <div class="footer">
-      © 2025 Arjun Online Book. All rights reserved.
-    </div>
+  <div class="footer">
+    © 2025 YourName. All rights reserved.
   </div>
 </body>
 </html>
