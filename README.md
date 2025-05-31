@@ -2,113 +2,80 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Arjun Online Book</title>
   <style>
     body {
+      font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: url('b0f8f1ed-d701-4062-b065-e8696777376e.png') no-repeat center center fixed;
-      background-size: cover;
-      color: white;
-      font-family: Arial, sans-serif;
-      text-align: center;
+      background: #f3f3f3;
+      color: #333;
     }
-
-    header {
-      padding: 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .logo {
-      width: 250px;
-      max-width: 90%;
-      filter: drop-shadow(0 0 20px #ffff00);}
-
     .container {
-      padding: 60px 20px;
-      background: rgba(0, 0, 0, 0.6);
-      max-width: 600px;
-      margin: auto;
-      border-radius: 10px;
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-
-    h1 {
-      font-size: 2.5rem;
-      color: #ffcc00;
+    .logo {
+      max-width: 150px;
       margin-bottom: 20px;
     }
-
-    .safety {
-      font-size: 1.5rem;
-      color: #00ffcc;
-      margin: 30px 0;
+    h1 {
+      color: #d60000;
+      margin-bottom: 10px;
     }
-
-    .telegram-btn, .whatsapp-btn {
-      display: inline-block;
-      margin: 15px 10px;
-      padding: 15px 25px;
+    .banner {
+      background: #ffd700;
+      padding: 15px;
       font-size: 18px;
       font-weight: bold;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    .features {
+      text-align: left;
+      margin-bottom: 20px;
+    }
+    .features li {
+      margin: 10px 0;
+    }
+    .btn {
+      display: inline-block;
+      background: #0088cc;
+      color: #fff;
+      padding: 12px 20px;
       border-radius: 8px;
       text-decoration: none;
+      font-size: 18px;
     }
-
-    .telegram-btn {
-      background-color: #0088cc;
-      color: white;
-    }
-
-    .whatsapp-btn {
-      background-color: #25D366;
-      color: white;
-    }
-
     .footer {
-      margin-top: 40px;
+      margin-top: 30px;
       font-size: 14px;
-      color: #ccc;
-      text-align: left;
-    }
-
-    .footer ul {
-      list-style: disc;
-      margin-left: 20px;
-      padding-left: 0;
+      color: #777;
     }
   </style>
 </head>
 <body>
-  <header>
-    <img src="logo.png.png" alt="Arjun Online Book Logo" class="logo">
-  </header>
-
   <div class="container">
-    <h1>KAHI BHI KABHI BHI!!</h1>
+    <img src="https://via.placeholder.com/150x150?text=Arjun" alt="Arjun Online Book" class="logo">
+    <h1>Arjun Online Book</h1>
+    <div class="banner">Join & Start Earning Instantly</div>
 
-    <div class="safety">
-      100% SAFE & SECURE BOOK!!
-    </div>
+    <ul class="features">
+      <li>✅ Instant Withdrawal</li>
+      <li>✅ 24/7 Support</li>
+      <li>✅ Secure & Trusted Platform</li>
+      <li>✅ Easy Registration</li>
+    </ul>
 
-    <a href="https://t.me/arjunexchane" target="_blank" class="telegram-btn">
-      Join on Telegram
-    </a>
-
-    <a href="https://wa.me/917359957945" target="_blank" class="whatsapp-btn">
-      Chat on WhatsApp
-    </a>
+    <a href="https://t.me/arjunexchane" class="btn" target="_blank">Join Telegram</a>
 
     <div class="footer">
-      <strong>Disclaimer:</strong>
-      <ul>
-        <li>This platform is strictly for users aged 18 and above.</li>
-        <li>No real money transactions take place here.</li>
-        <li>We only deal via official WhatsApp and Telegram channels.</li>
-        <li>Beware of fraudsters and third-party contacts claiming association.</li>
-      </ul>
+      © 2025 Arjun Online Book. All rights reserved.
     </div>
   </div>
 </body>
